@@ -1,0 +1,39 @@
+@import "../../../variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-app;
+  color: $dark;
+}
+
+body {
+  background-color: $white;
+}
+
+.Homepage__picture {
+  height: 60vh;
+  width: 100vw;
+  background-image: url("../../assets/backgroundv3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Homepage__title {
+  // width: 100vw;
+  // background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.Homepage__title--text {
+  padding-block: 3vh;
+  font-size: x-large;
+}
+.dividing__line {
+  width: 40vw;
+  height: 5px;
+  background-color: $secondary-medium;
+  border: none;
+}

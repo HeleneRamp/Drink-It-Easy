@@ -1,0 +1,49 @@
+@import "../../../variables";
+
+.Nav__container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+.Nav__appLogo {
+  margin-inline: 4vw;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.Nav__appLogo--image {
+  height: 5.5rem;
+}
+.Nav__appLogo--title {
+  font-family: $font-title;
+  font-size: xx-large;
+}
+.Nav__list__filters {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 72vw;
+  list-style: none;
+  cursor: pointer;
+}
+.Nav__list__filters--cocktails {
+  gap: 1rem;
+  text-align: center;
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+}
+.Nav__list__filters--title {
+  background: linear-gradient(
+      to top,
+      $secondary-dark 0%,
+      $secondary-medium 10%,
+      transparent 10.01%
+    )
+    no-repeat left bottom / 0 100%;
+  transition: background-size 0.5s;
+  font-size: larger;
+}
+.Nav__list__filters--title:hover {
+  background-size: 100% 100%;
+}
