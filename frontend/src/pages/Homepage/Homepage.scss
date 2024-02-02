@@ -5,22 +5,24 @@
   padding: 0;
   font-family: $font-app;
   color: $dark;
+  text-decoration: none;
 }
 
 body {
   background-color: $white;
+  padding-bottom: 5vh;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .Homepage__picture {
-  height: 60vh;
-  width: 100vw;
+  height: 70vh;
+  width: 100%;
   background-image: url("../../assets/backgroundv3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .Homepage__title {
-  // width: 100vw;
-  // background-color: red;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -36,4 +38,17 @@ body {
   height: 5px;
   background-color: $secondary-medium;
   border: none;
+}
+.Homepage__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Homepage__btn--goUp {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5vw;
+}
+.Homepage__arrow {
+  filter: drop-shadow(-1.5px 3px 1.5px $grey);
 }

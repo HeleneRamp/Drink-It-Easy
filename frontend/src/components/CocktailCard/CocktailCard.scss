@@ -1,0 +1,27 @@
+@import "../../../variables";
+
+.CocktailCard__container {
+  height: 35rem;
+  width: 25rem;
+  margin-inline: 2vh;
+  margin-block: 2vw;
+  background-color: $secondary-dark;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px 1px $grey;
+  transition: transform 330ms ease-in-out;
+}
+.CocktailCard__container:hover {
+  transform: scale(1.05);
+}
+.CocktailCard__container--image {
+  height: 30rem;
+  width: 25rem;
+  border-radius: 15px 15px 0px 0px;
+}
+.CocktailCard__container--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.3rem;
+  color: $white;
+}

@@ -2,8 +2,13 @@
 
 .Nav__container {
   height: 10vh;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  background-color: $white;
+  border-bottom: 5px solid $primary-dark;
+  z-index: 2;
 }
 .Nav__appLogo {
   margin-inline: 4vw;
@@ -46,4 +51,5 @@
 }
 .Nav__list__filters--title:hover {
   background-size: 100% 100%;
+  color: $secondary-dark;
 }

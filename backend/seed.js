@@ -33,7 +33,7 @@ const seed = async () => {
 
     queries.push(
       database.query(`INSERT INTO cocktail (categorie_id, img, nom_cocktail, ingr_1, ingr_2, ingr_3, ingr_4, ingr_5, materiel_1, materiel_2, materiel_3, materiel_4, realisation, conseil) VALUES 
-        ( 2, "bramble.jpg", "Le Bramble", "4cl de Gin", "2cl de Crème de mûre", "2cl de Jus de citron pressé", "1cl de Sirop de canne", NULL, "Un shaker", "Un verre doseur", "Une passoire à cocktail", "Un verre long drink",
+        ( 2, "bramble.webp", "Le Bramble", "4cl de Gin", "2cl de Crème de mûre", "2cl de Jus de citron pressé", "1cl de Sirop de canne", NULL, "Un shaker", "Un verre doseur", "Une passoire à cocktail", "Un verre long drink",
         "Remplissez à moitié votre shaker de glaçons.
         Versez ensuite 4 cl de gin Gibson’s.
         Ajoutez 2 cl de crème de mûre L’Héritier-Guyot.
@@ -46,7 +46,7 @@ const seed = async () => {
         Pour un effet visuel élégant et marbré, vous pouvez aussi réaliser la préparation directement dans un verre Old fashioned, avec de la glace pilée, et surtout en ajoutant la crème de mûre au dernier moment avec un mouvement circulaire.
         Si vous n’avez pas de crème de mûre, vous pouvez la remplacer par de la crème de cassis. Le goût sera différent mais toujours appréciable.
         Si vous aimez la crème de mûre, vous pouvez essayer aussi le Sweety Thing, le Berry Fizz ou le Murmure et Chuchotement."),
-        ( 2, "brighton.jpg", "Le Brighton", "4cl de Gin", "4cl de Jus de pomme", "2cl de Jus de citron vert pressé", "1cl de Sirop de grenadine", NULL, "Un shaker", "Un verre long drink", NULL, NULL, 
+        ( 2, "brighton.webp", "Le Brighton", "4cl de Gin", "4cl de Jus de pomme", "2cl de Jus de citron vert pressé", "1cl de Sirop de grenadine", NULL, "Un shaker", "Un verre long drink", NULL, NULL, 
         " Dans un shaker rempli à moitié de glaçons, versez 4 cl de gin Gibson’s, 4 cl de jus de pomme et 2 cl de  jus de citron vert.
         Secouez énergiquement votre shaker jusqu’à obtenir un mélange bien homogène.
         Versez ensuite votre préparation dans un verre long drink de votre choix.
@@ -57,7 +57,7 @@ const seed = async () => {
          au fond du verre et créer un beau dégradé de couleurs !
         Vous appréciez tout particulièrement le gin ? Laissez-vous tenter par d’autres recettes originales et savoureuses, comme le Ginpamp au jus de pamplemousse, l’Abricotier à la liqueur d’abricot ou
          encore le Blue Apple et son jus de pomme !"),
-         ( 2, "negroni.jpg", "Le Negroni", "3cl de Gin", "3cl de Vermouth rouge", "3cl de Bitter orange", "1 tranche d'orange", NULL, "Un verre old fashioned/Verre à Whisky", "une cuillère à mélange", NULL, NULL, 
+         ( 2, "negroni.webp", "Le Negroni", "3cl de Gin", "3cl de Vermouth rouge", "3cl de Bitter orange", "1 tranche d'orange", NULL, "Un verre old fashioned/Verre à Whisky", "une cuillère à mélange", NULL, NULL, 
          "Remplissez votre verre de type old fashioned de quelques glaçons.
          Ajoutez dans le verre le vermouth rouge, le bitter orange puis le gin Gibson’s.
          Remuez doucement de haut en bas les ingrédients à l’aide d’une cuillère à cocktails pour refroidir l’ensemble.
@@ -80,7 +80,7 @@ const seed = async () => {
       Découvrez toutes les variantes du mojito : Fraise, Royal, Sans Alcool, Mojito Real, Dark Mojito, Pink Mojito ...
       Nous recommandons d'utiliser SAINT JAMES qui est un Rhum à la qualité inégalée, comme en témoignent les nombreuses médailles reçues continuellement aux concours internationaux les plus prestigieux.
       A la période de Noël et du Nouvel An, ajoutez dans votre Mojito des cranberries ou des graines de grenade, ainsi qu'une petite branche de romarin."),
-      ( 1, "perfect-colada.jpg", "Le perfect colada", "4cl de Rhum ambré", "6cl de jus d'ananas", "4cl de crème de coco", "5 dés d'ananas", NULL, "Un blender", "Un verre long drink", NULL, NULL,
+      ( 1, "perfect-colada.webp", "Le perfect colada", "4cl de Rhum ambré", "6cl de jus d'ananas", "4cl de crème de coco", "5 dés d'ananas", NULL, "Un blender", "Un verre long drink", NULL, NULL,
       "Prenez un blender.
       Remplissez-le de glace à votre convenance.
       Versez-y directement 4 cl de rhum ambré des îles Old Nick, 6 cl de jus d’ananas Caraïbos, 4 cl de crème de coco et 5 dés d’ananas frais.
@@ -99,7 +99,7 @@ const seed = async () => {
       Décorez le bord du verre avec une tranche de citron vert. Traditionnellement, le Ti' Punch se déguste sans glaçons. Vous pouvez toutefois ajouter, en fin de préparation, un peu de glace pilée pour obtenir un cocktail plus frais.
       On peut également remplacer le sirop de canne à sucre par une demi-cuillère à café de sucre roux.
       Les puristes écrasent directement le quartier de citron vert dans le verre. Il suffit ensuite de retirer l'écorce."),
-      ( 5, "bora-bora.jpg", "Le bora bora", "10cl de Jus d'ananas", "6cl de Nectar de maracujà", "1cl de Sirop de grenadine", "1cl de jus de citron jaune pressé", NULL, "Un Tmbler/Verre long drink", "Une cuillère à mélange", NULL, NULL,
+      ( 5, "bora-bora.webp", "Le bora bora", "10cl de Jus d'ananas", "6cl de Nectar de maracujà", "1cl de Sirop de grenadine", "1cl de jus de citron jaune pressé", NULL, "Un Tmbler/Verre long drink", "Une cuillère à mélange", NULL, NULL,
       "Munissez-vous de votre verre long drink et ajoutez quelques glaçons.
       Versez le sirop de grenadine Sirop Sport et le jus de citron jaune.
       Terminez en ajoutant le jus d’ananas et le nectar de maracuja Caraïbos.
@@ -112,7 +112,7 @@ const seed = async () => {
       Secouez énergiquement pendant une dizaine de secondes. Dans un verre style coupe, ajoutez quelques glaçons.
       Versez-y la préparation du shaker. Ajoutez du d’Artigny Cuvée Prestige.", 
       "Pour décorer votre cocktail vous pouvez garder une tranche d'orange et un brin de romarin de côté et ajoutez les avant de servir."),
-      ( 5, "pink-tonic.jpg", "Le Virgin Pink Tonic", "4cl de Jus de goyave-framboise", "4cl de Tonic", "2 cl de Nectar de litchi", "1cl de jus de citron vert pressé", NULL, "Une cuillère à mélange", "Un verre ballon/verre à vin", NULL, NULL, 
+      ( 5, "pink-tonic.webp", "Le Virgin Pink Tonic", "4cl de Jus de goyave-framboise", "4cl de Tonic", "2 cl de Nectar de litchi", "1cl de jus de citron vert pressé", NULL, "Une cuillère à mélange", "Un verre ballon/verre à vin", NULL, NULL, 
       "Dans un shaker rempli de quelques glaçons, versez le jus de citron vert pressé, le nectar de litchi Caraïbos puis le jus goyave-framboise Caraïbos.
       Shakez l’ensemble des ingrédients.
       Versez la préparation dans un grand verre à pied en retenant la glace à l’aide d’une passoire à cocktail.
@@ -120,7 +120,7 @@ const seed = async () => {
       "Décorez le bord de votre verre avec des fruits rouges. Pour une version légèrement alcoolisée, remplacez le tonic par du cidre et le nectar de litchi par de la crème de cassis.
       Avec sa belle couleur rose acidulée, ce cocktail est le parfait allié pour une soirée romantique de la Saint-Valentin. Associez-le à du chocolat pour une dégustation encore plus gourmande !
       Que vous soyez amateurs de mocktails, que vous recherchiez de recettes de cocktails pour femme enceinte ou que vous preniez part au Dry January, découvrez nos autres recettes de cocktails sans alcool : Devil Kiss, Red Pink ou encore Fruity Jam !"),
-      ( 4, "grinch.jpg", "Le Grinch cocktail", "2cl de Vodka", "1cl de Curaçao bleu", "8cl de Jus d'ananas", "1cl de Jus de citron vert pressé", NULL, "Un shaker", "Un doseur à bec verseur", "Un verre old fashioned/Verre à whisky", NULL, 
+      ( 4, "grinch.webp", "Le Grinch cocktail", "2cl de Vodka", "1cl de Curaçao bleu", "8cl de Jus d'ananas", "1cl de Jus de citron vert pressé", NULL, "Un shaker", "Un doseur à bec verseur", "Un verre old fashioned/Verre à whisky", NULL, 
       "Trempez les rebords de votre verre type old fashioned dans du jus de citron. Trempez ensuite le verre dans du sucre coloré en rouge. Ajoutez des glaçons dans le verre.
       Dans un shaker, ajoutez des glaçons.
       Versez la vodka Poliakov, le curaçao bleu, le jus d’ananas Caraïbos et le jus de citron vert.
@@ -133,7 +133,7 @@ const seed = async () => {
       La couleur verte va différer en fonction des ingrédients et quantités choisis.
       Pour amplifier le vert, vous pouvez ajouter quelques gouttes de colorant vert.
       Une cerise confite peut être rajoutée sur le haut du cocktail."),
-      ( 4, "san-francisco.jpg", "Le San Francisco", "4cl de Vodka", "2cl de Nectar de banane", "1cl de sirop de banane", "8cl de jus d'orange", NULL, "Un Tumbler/Verre long drink", "Une passoire à cocktail", "Un skaker", NULL, 
+      ( 4, "san-francisco.webp", "Le San Francisco", "4cl de Vodka", "2cl de Nectar de banane", "1cl de sirop de banane", "8cl de jus d'orange", NULL, "Un Tumbler/Verre long drink", "Une passoire à cocktail", "Un skaker", NULL, 
       "Munissez-vous d’un shaker et ajoutez-y quelques glaçons.
       Versez la Vodka Poliakov, le nectar de banane Caraïbos et le jus d’orange.
       Secouez énergiquement pendant une dizaine de secondes.
@@ -144,7 +144,7 @@ const seed = async () => {
       Vous pouvez aussi remplacer une partie du jus d'orange par du triple sec.
       Pour une variante légèrement plus corsée, vous pouvez également remplacer le jus de banane par une liqueur de banane.
       Pour impressionner vos convives, soignez votre présentation en ajoutant une rondelle d'orange."),
-      ( 4, "sea-breeze.jpg", "Le Sea Breeze", "4cl de Vodka", "12cl de JUs de cranberry", "3cl de Jus de Pamplemousse", NULL, NULL, "Un shaker", "Une passoire à cocktail", "Un Tumbler/Verre long drink", NULL,
+      ( 4, "sea-breeze.webp", "Le Sea Breeze", "4cl de Vodka", "12cl de JUs de cranberry", "3cl de Jus de Pamplemousse", NULL, NULL, "Un shaker", "Une passoire à cocktail", "Un Tumbler/Verre long drink", NULL,
       "Munissez-vous d’un shaker et déposez-y quelques glaçons.
       Versez la vodka Poliakov, le jus de cranberry et le jus de pamplemousse dans le verre.
       Secouez énergiquement pendant une dizaine de secondes. Munissez-vous d’un verre long drink.
@@ -168,7 +168,7 @@ const seed = async () => {
       Il est possible d'ajouter une goutte de Scotch Whisky au trait de Bitter pour écraser le sucre. On peut également remplacer le morceau de sucre par du sirop de sucre de canne.
       Les versions de ce cocktail sont nombreuses et diffèrent suivant les ingrédients utilisés. Pour préparer un Old Fashioned au rhum, remplacez le Scotch Whisky par un rhum brun cubain. Pour surprendre vos invités, n'hésitez à le préparer avec du gin ou de la tequila.
       Une autre variante qui s'appelle le Old Fashioned Coffee introduit du café. Une dose de café sera infusée à froid puis diluée avec le sucre. Pour renforcer le goût, on peut également utiliser un trait de crème de cacao."),
-      ( 3, "passion-label.jpg", "Le Passion Label", "4cl de Blended Scotch Whisky", "4cl de Nectar de maracujà", "2cl de sirop de canne", "2cl de citron vert frais", NULL, "Un verre long drink", "Un pilon", NULL, NULL, 
+      ( 3, "passion-label.webp", "Le Passion Label", "4cl de Blended Scotch Whisky", "4cl de Nectar de maracujà", "2cl de sirop de canne", "2cl de citron vert frais", NULL, "Un verre long drink", "Un pilon", NULL, NULL, 
       "Dans un verre long drink, versez 2 cl de sucre de canne.
       Pilez légèrement à l’aide d’un pilon le demi citron vert frais que vous aurez préalablement lavé et coupé en morceaux.
       Ajoutez 4 cl de scotch whisky LABEL 5.

@@ -1,0 +1,24 @@
+@import "../../../variables";
+
+.RecipeBoard__container {
+  margin-inline: 5vw;
+  min-height: 15rem;
+  height: auto;
+}
+.RecipeBoard__container--title {
+  text-align: center;
+  font-size: x-large;
+}
+.RecipeBoard__container--desc {
+  display: flex;
+  align-items: center;
+  min-height: 10rem;
+  width: auto;
+  height: auto;
+  border: 10px solid $grey;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}
+.RecipeBoard__container--text {
+  font-size: large;
+}

@@ -1,0 +1,17 @@
+@import "../../../variables";
+
+.RecipePage__body {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15vh;
+}
+.RecipePage__body--rightTop {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+}
+.RecipePage__body--right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

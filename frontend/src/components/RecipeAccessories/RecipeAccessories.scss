@@ -1,0 +1,24 @@
+@import "../../../variables";
+
+.RecipeAccessories__container {
+  margin-inline: 5vw;
+  height: 20rem;
+}
+.materiel__list {
+  font-size: large;
+}
+.RecipeAccessories__container--title {
+  font-size: x-large;
+  text-align: center;
+}
+.RecipeAccessories__container--list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 20vw;
+  width: auto;
+  height: 15rem;
+  border: 10px solid $secondary-light;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}

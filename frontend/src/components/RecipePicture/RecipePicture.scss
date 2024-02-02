@@ -1,0 +1,18 @@
+@import "../../../variables";
+
+.RecipePicture__container {
+  margin-top: 4vh;
+  margin-left: 5vw;
+  background-color: $secondary-medium;
+  width: 37.5rem;
+  text-align: center;
+  height: 90vh;
+}
+.RecipePicture__title {
+  font-size: xx-large;
+  width: 37.5rem;
+  height: 8vh;
+}
+.RecipePicture__image {
+  height: 47rem;
+}

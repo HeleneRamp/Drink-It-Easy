@@ -1,0 +1,25 @@
+@import "../../../variables";
+
+.RecipeDescription__container {
+  margin-inline: 5vw;
+  min-height: 15rem;
+  height: auto;
+  margin-bottom: 3rem;
+}
+.RecipeDescription__container--title {
+  text-align: center;
+  font-size: x-large;
+}
+.RecipeDescription__container--desc {
+  display: flex;
+  align-items: center;
+  min-height: 10rem;
+  width: auto;
+  height: auto;
+  border: 10px solid $secondary-dark;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}
+.RecipeDescription__container--text {
+  font-size: large;
+}
